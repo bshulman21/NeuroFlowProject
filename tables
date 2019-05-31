@@ -1,0 +1,12 @@
+create table users
+(
+user_id varchar(3) primary key,
+created_ at date,
+);
+
+create table exercise
+(
+user_id varchar(3) primary key,
+questionnaire_id varchar(5),
+exercise_completion_date date,
+);
